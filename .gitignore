@@ -17,3 +17,14 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Claude Code internal state
+.claude/
+
+# Private business data / exports
+*.xlsx
+*.csv
+OpenVPN/
+
+# ETL runtime cache
+scripts/inventory_sync_cache.json
